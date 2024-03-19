@@ -64,11 +64,11 @@
 #profile-container .text-section {
     text-align: center;
 }
-#about-container,#skills-container{
+#about-container,#skills-container,#contact-container,#project-container{
     text-align: center;
 
 }
-#about-container .color-change,#skills-container .color-change{
+#about-container .color-change,#skills-container .color-change,#contact-container .color-change,#project-container .color-change{
     color: rgba(45, 45, 46, 0.842);
     font-size: 0.9em;
 }
@@ -79,7 +79,7 @@
     width: 30%;
    margin: 0 auto;
 }
-#skills-container {
+#skills-container,#contact-container,#project-container {
     margin-top: 60px;
 }
 #about-container h2{
@@ -94,7 +94,23 @@ font-size: 1.2em;
     justify-content: space-around;
     
 }
-
-
+#contact-container #contact-details{
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+}
+#contact-container #contact-details li{
+    font-size: 30px;
+    list-style-type: none;
+    padding: 20px;
+}
+#contact-container #contact-details li a{
+    text-decoration: none;
+}
 
 
