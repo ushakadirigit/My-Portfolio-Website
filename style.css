@@ -51,14 +51,49 @@
     text-decoration: none;
     color: black;
     background-color: azure;
-    border-radius: 50%;
+    border-radius: 30%;
     border: 1px solid black;
-    padding: 20px;
+    padding: 10px;
+
+}
+#profile-container .text-section .font-change{
+    font-size: 20px;
 
 }
 
+#profile-container .text-section {
+    text-align: center;
+}
+#about-container,#skills-container{
+    text-align: center;
 
+}
+#about-container .color-change,#skills-container .color-change{
+    color: rgba(45, 45, 46, 0.842);
+    font-size: 0.9em;
+}
 
+#about-container #qualification {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30%;
+   margin: 0 auto;
+}
+#skills-container {
+    margin-top: 60px;
+}
+#about-container h2{
+font-size: 1.2em;
+}
+.list-container {
+    list-style-type: none;
+    
+    display: flex;
+    
+    gap: 2.5rem;
+    justify-content: space-around;
+    
+}
 
 
 
