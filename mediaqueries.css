@@ -1,0 +1,33 @@
+@media screen  and (max-width:600px){
+    #main-container{
+        font-family: sans-serif;
+        font-size: 14px;
+        margin:0 auto;
+        width: 80%;
+    }
+   #nav-container .logo{
+    font-size: 18px;
+   } 
+   #main-container #nav-container{
+    display: block;
+   }
+   #profile-container{
+    display: block;
+    
+    margin: 30px;
+}
+#profile-container .img-section img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.list-container{
+    display: block;
+}
+#contact-container #contact-details{
+    display: block;
+}
+#contact-container #contact-details li{
+    font-size: 14px;;
+}
+}
